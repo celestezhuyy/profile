@@ -17,6 +17,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 body {
   background-color: #EAE0CF;
   font-family: Poppins;
@@ -39,6 +46,12 @@ h2 {
   line-height: normal;
   font-family: Spicy Rice;
   text-align: center;
+}
+
+.link-blue {
+  text-decoration: underline;
+  font-family: Poppins;
+  color: #111844;
 }
 
 a {
@@ -103,5 +116,24 @@ i {
   padding-left: 0px;
   text-align: center;
 }
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.box-left {
+  margin-left: auto;
+}
+
+.box-right {
+  margin-left: auto;
+  padding: 30px;
+  background-color: #e0c79c73;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
 
 @media (prefers-reduced-motion: no-preference)
