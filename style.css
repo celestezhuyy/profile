@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 60%;
+  }
+}
+
+body {
+  background-color: #EAE0CF;
+  font-family: Poppins;
+  color: #111844;
+  font-size: 12px;
+  line-height: normal;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  line-height: normal;
+  font-family: Spicy Rice;
+  text-align: center;
+}
+
+h2 {
+  color: #4B5694;
+  font-size: 25px;
+  line-height: normal;
+  font-family: Spicy Rice;
+  text-align: center;
+}
+
+a {
+  color: #7288AE;
+  text-decoration: underline;
+  font-family: Spicy Rice;
+}
+
+a:hover {
+  color: #4B5694;
+  text-decoration: none;
+}
+
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #e0c79c;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.btn-dark-blue {
+  background-color: #7288AE;
+  padding: 10px;
+  border-radius: 20px;
+  color:white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#banner {
+  background-image: url(../images/462303062_18464783146025302_8762270701085234848_n.jpg);
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #e0c79c;
+}
+
+#profile {
+  border-radius: 150px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 10px #e0c79c;
+}
+
+i {
+  font-size: 40px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference)
